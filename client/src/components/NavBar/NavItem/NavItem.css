@@ -1,0 +1,23 @@
+li{
+    display: inline;
+    float: right;
+}
+
+.link{
+    font-size: large;
+    display: block;
+    writing-mode: horizontal-tb;
+}
+
+li .link{
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    padding: 0px 16px 0 16px;
+    color: black;
+}
+
+li .link:hover{
+    background-color: var(--green);
+    transition: .2s ease-in;
+}

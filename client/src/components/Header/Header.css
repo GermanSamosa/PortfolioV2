@@ -1,0 +1,10 @@
+img{
+    display: block;
+    align-self: center;
+    margin: auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 54%;
+    border-bottom-left-radius: 53%;
+    border-bottom-right-radius: 51%;
+    border: 5px solid;
+}

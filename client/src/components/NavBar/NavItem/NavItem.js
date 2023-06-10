@@ -6,7 +6,7 @@ function NavItem({to, label}) {
     return (
         <>
             <li>
-                <Link to={to}>{label}</Link>
+                <Link className='link' to={to}><strong>{label}</strong></Link>
             </li>
         </>
     )
