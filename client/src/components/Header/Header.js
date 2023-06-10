@@ -17,11 +17,7 @@ function Header() {
                     </div>
                     <div class="col-lg-6">
                         <h1 class="display-5 fw-bold text-center text-body-emphasis lh-1 mb-3 p-2" style={{backgroundColor: 'var(--green)'}}>{title}</h1>
-                        <p class="">{lead1}</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact</button>
-                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact</button>
-                        </div>
+                        <p class=""><strong>Bridging the gap between technology and creativity:<br/><span id='where'>Full Stack Developer | PaperCut Consultant | VR Enthusiast</span></strong></p>
                     </div>
                 </div>
             </div>
