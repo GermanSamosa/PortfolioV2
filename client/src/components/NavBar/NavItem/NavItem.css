@@ -8,6 +8,7 @@ li{
     display: block;
     writing-mode: horizontal-tb;
     font-size: 125%;
+    transition: .2s ease-in;
 }
 
 li .link{
@@ -20,9 +21,9 @@ li .link{
 
 li .link:hover{
     background-color: var(--green);
-    transition: .2s ease-in;
+    
 }
 
-li .link:hover::after{
+li .link:not(:hover){
     transition: .2s ease-out;
 }

@@ -1,0 +1,38 @@
+.btn-project{
+    font-size: 115%;
+    padding-inline: 12px;
+    transition: .2s ease-in-out;
+    text-align: center;
+    flex: 1;
+    margin: auto;
+    background-color: var(--green90);
+}
+.btn-project-active{
+    font-size: 115%;
+    padding-inline: 12px;
+    transition: .2s ease-in-out;
+    text-align: center;
+    flex: 1;
+    margin: auto;
+    background-color: var(--green);
+}
+
+.btn-group{
+    /* border: 2px solid black; */
+    transition: .2s ease-in-out;
+    display: flex;
+    width: 25rem;
+}
+
+
+#web{
+    /* border-right: 2px solid black; */
+}
+
+.btn-project:hover{
+    background-color: var(--green);
+}
+
+.btn-project:not(:hover){
+
+}
