@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Layout.css';
 import WebProject from './Web/WebProject';
 import WorkExp from './Work/WorkExp';
+import Header from '../Header/Header';
 
 function Layout() {
 

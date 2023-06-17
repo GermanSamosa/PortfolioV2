@@ -1,5 +1,5 @@
 li{
-    display: inline;
+    display: inline-flex;
     float: right;
 }
 
@@ -9,6 +9,7 @@ li{
     writing-mode: horizontal-tb;
     font-size: 125%;
     transition: .2s ease-in;
+    flex: 1;
 }
 
 li .link{

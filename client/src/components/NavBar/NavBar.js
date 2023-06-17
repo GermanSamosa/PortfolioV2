@@ -12,7 +12,7 @@ function NavBar() {
                 <div className='navbar-container'>
                     <ul>
                         <NavItem to='/about' label='About'/>
-                        <NavItem to='/projects' label='Projects'/>
+                        <NavItem to='/projects' label='Experience'/>
                         <NavItem to='/contact' label='Contact'/>
                     </ul>
                 </div>

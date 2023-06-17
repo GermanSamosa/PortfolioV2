@@ -1,0 +1,8 @@
+.job{
+    max-width: 20rem;
+    margin: 4rem 0 0 0;
+    padding: auto;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    font-weight: bold;
+}

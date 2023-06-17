@@ -1,0 +1,12 @@
+
+.page{
+    background-image: url('../../../Content/workTree.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    z-index: 1;
+}
+
+.second{
+    float: right;
+}
