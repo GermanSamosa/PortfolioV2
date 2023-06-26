@@ -26,7 +26,7 @@ const carteBlancheFeatures = [
     'Login Portal for Users and Admin',
     'JWT Authentification',
     'Admin Dashboard',
-    'Create, Read, Update & Delete',
+    'Generate Reports',
     'RESTful API'
 ]
 const carteBlancheDesc = 'Developed in a team of 6 using C#. Front-end features Blazor WebAssembly Framework and the back-end was designed and developped with ASP.NetCore. We designed our PosteGreSQL database with many controllers in mind.'
@@ -55,9 +55,8 @@ const moonPics = [
 
 const moonFeat = [
     'Login Portal for Users and Admin',
-    'Stripe API',
+    'Generate Reports',
     'Admin Dashboard',
-    'Create, Read, Update & Delete',
     'RESTful API'
 ]
 

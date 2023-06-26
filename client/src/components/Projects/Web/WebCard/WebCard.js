@@ -39,7 +39,7 @@ function WebCard({ title, features, desc, imageUrls, webUrls }) {
                             </div>
                             <div className='col w-100'>
                                 <p><strong>Technologies</strong></p>
-                                <p>{desc}</p>
+                                <p className='p-2'>{desc}</p>
                             </div>
                         </div>
                         <div className='row pb-4'>
