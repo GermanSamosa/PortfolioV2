@@ -7,7 +7,7 @@
 .background{
     display: grid;
     place-items: center;
-    height: 30dvh;
+    height: auto;
 }
 
 .gallery {
@@ -38,4 +38,25 @@
     font-weight: bold;
     cursor: pointer;
     border-radius: 8px;
+}
+
+.visit-button{
+    width: 10rem;
+    margin-top: 1rem;
+    padding: 0 .5rem;
+    background-color: var(--green90);
+    font: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.visit-button:hover{
+    background-color: var(--green);
+    transition: .5s ease-in-out;
+    width: 20rem;
+}
+
+.visit-button:not(:hover){
+    transition: .3s ease-in-out;
 }
