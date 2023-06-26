@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    display: grid;
+    place-items: center;
+    height: 30dvh;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 80rem;
+}
+
+.webCard{
+    position: relative;
+    left: 0px;
+    width: 8rem;
+    border: 16px;
+    height: 10.6rem;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    flex: 0.25;
+}
+
+.webCard img{
+    height: 10.6rem;
+    width: 20rem;
+}
+
+.webCard:hover{
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}

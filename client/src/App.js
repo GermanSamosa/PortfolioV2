@@ -18,7 +18,7 @@ function App() {
           <Route path="/about" Component={About} />
           <Route path="/projects" Component={Projects} />
           <Route path="/contact" Component={Contact} />
-          <Route Component={NotFound} />
+          <Route path="/*" Component={NotFound} />
         </Switch>
         
       </Router>

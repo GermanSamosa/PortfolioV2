@@ -13,7 +13,7 @@ function Header() {
             <div className='container-md'>
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6">
-                        <img src={profilepic} className="d-block img-fluid" alt="Profile Picture" loading="lazy" width="300" height="300 " />
+                        <img src={profilepic} className="profilepic d-block img-fluid" alt="Profile Picture" loading="lazy" width="300" height="300 " />
                     </div>
                     <div className="col-lg-6">
                         <h1 className="name display-5 fw-bold text-center text-body-emphasis lh-1 mb-3 p-2" style={{backgroundColor: 'var(--green)'}}>{title}</h1>
